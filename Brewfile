@@ -28,6 +28,7 @@ install homebrew/dupes/grep
 # Install other useful binaries
 install git
 install postgres
+install redis
 
 # Remove outdated versions from the cellar
 cleanup
