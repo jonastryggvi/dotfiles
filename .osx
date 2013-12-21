@@ -21,7 +21,7 @@ sudo nvram SystemAudioVolume=" "
 
 # Menu bar: hide the Time Machine and Bluetooth icons
 defaults write ~/Library/Preferences/ByHost/com.apple.systemuiserver.* dontAutoLoad -array \
-	"/System/Library/CoreServices/Menu Extras/TimeMachine.menu" 
+	"/System/Library/CoreServices/Menu Extras/TimeMachine.menu"
 
 
 # Expand save panel by default
@@ -510,13 +510,6 @@ defaults write com.irradiatedsoftware.SizeUp StartAtLogin -bool true
 
 # Don’t show the preferences window on next start
 defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
-
-###############################################################################
-# Sublime Text                                                                #
-###############################################################################
-
-# Install Sublime Text settings
-cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 ###############################################################################
 # Transmission.app                                                            #
