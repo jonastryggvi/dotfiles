@@ -8,9 +8,6 @@ function doIt() {
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
-	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-	brew bundle ~/Brewfile
-	./.cask
 else
 	read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1
 	echo
