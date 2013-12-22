@@ -16,3 +16,8 @@ brew bundle Brewfile
 open init/digon.terminal
 ```
 The last command will open a command line terminal, select preferences->Settings and find the digon profile, and make that default
+
+Go get Java 7;
+http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+
+Start Intellij IDEA, select configure and install these plugins; Python, Ruby, Play. Go to Preferences and enable the Dracula theme :)
