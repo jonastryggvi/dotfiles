@@ -10,6 +10,9 @@ cd dotfiles
 source bootstrap.sh
 ./.osx
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+# this might ask you to run as sudo, but don't! Try sudo brew doctor
 brew bundle Brewfile
 ./.cask
+open init/digon.terminal
 ```
+The last command will open a command line terminal, select preferences->Settings and find the digon profile, and make that default
