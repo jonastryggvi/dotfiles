@@ -2,7 +2,7 @@
 
 ## Installation
 
-First, make sure that you have installed XCode from the app store
+First, make sure that you have installed XCode from the app store, and install Virtual Box from https://www.virtualbox.org/wiki/Downloads
 
 ```bash
 cd; curl -#L https://github.com/jonastyggvi/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE-MIT.txt}
@@ -20,3 +20,17 @@ Go get Java 7;
 http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 
 Start Intellij IDEA, select configure and install these plugins; Python, Ruby, Play. Go to Preferences and enable the Dracula theme :)
+
+Install Ruby via RVM (Ruby Version Manager)
+$ curl -sSL https://get.rvm.io | bash -s stable --ruby
+ or if you had rvm installed but no proper ruby, then 
+$ rvm install ruby
+$ rvm use ruby --default
+
+$ gem install berkshelf
+$ brew tap phinze/homebrew-cask
+$ brew install brew-cask
+$ brew install cask vagrant
+
+$ vagrant install vagrant-berkshelf
+$ vagrant install vagrant-omnibus
