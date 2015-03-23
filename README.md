@@ -8,7 +8,7 @@ First, make sure that you have installed XCode from the app store, and install V
 cd; curl -#L https://github.com/jonastyggvi/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE-MIT.txt}
 cd dotfiles
 source bootstrap.sh
-# this might ask you to run as sudo, but don't! Try sudo brew doctor
+
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install rbenv ruby-build
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
