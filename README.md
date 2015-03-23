@@ -17,6 +17,3 @@ rbenv install 2.1.2
 open init/digon.terminal
 ```
 The last command will open a command line terminal, select preferences->Settings and find the digon profile, and make that default
-
-Start Intellij IDEA, select configure and install these plugins; Node, Python, Ruby. Go to Preferences and enable the Dracula theme :)
-```
