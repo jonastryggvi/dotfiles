@@ -12,7 +12,7 @@ source bootstrap.sh
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install rbenv ruby-build
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-rbenv install 2.1.2
+rbenv install 2.1.6
 
 open init/digon.terminal
 ```
